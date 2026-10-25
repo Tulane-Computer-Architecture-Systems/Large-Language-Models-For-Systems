@@ -1,0 +1,318 @@
+key,name,archetype,model_access,adaptation,executor,human_approval,evidence_level,coordination,model_critic,backbone_comparison,online_latency_reported,reports_time,reports_tokens,reports_monetary_cost,reports_training_compute
+afandi2026guided,KGWISE,C1,both,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+aggarwal2025scriptsmith,ScriptSmith,C3,both,prompting; rag; memory,no-consequential-action,yes,human-reviewed-external-use,multi-role,yes,no,no,no,no,no,no
+akbari2025intentcontinuum,IntentContinuum,C6,proprietary-api,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,no,yes,yes,yes,no,no
+akbari2026cognitivecontinuum,CognitiveContinuum,C1,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,no,no,no,no,no,no
+akyash2025decortl,DecoRTL,C3,open-weights,other,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+angi2025llnet,LLNet,C3,both,prompting; icl,machine,yes,benchmark-or-testbed,single-role,no,no,no,yes,no,yes,no
+apuri2026infraagent,InfraAgent,C6,open-weights,rag; sft; other,machine,yes,simulation,single-role,no,no,no,yes,no,no,no
+ardebili2025kubeintellect,KubeIntellect,C6,proprietary-api,prompting; rag; memory,machine,yes,benchmark-or-testbed,multi-role,no,no,yes,yes,yes,yes,no
+avgerinos2026arm,ARM,C6,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,no,no,no
+ayepahmensah2026ai,LLMGuidedMAPPOOrchestration,C1,open-weights,rag; sft,machine,no,simulation,single-role,no,no,yes,yes,yes,yes,no
+babii2026web,GeminiWebPerfAdvisory,C5,proprietary-api,prompting,human,yes,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+bai2025assertionforge,AssertionForge,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+bai2025fvdebug,FVDebug,C5,proprietary-api,prompting,human,no,benchmark-or-testbed,multi-role,no,no,yes,yes,no,no,no
+bai2025polo,POLO,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+bai2026oracl,ORACL,C6,open-weights,sft; rl,machine,no,benchmark-or-testbed,replicated-role,no,no,no,no,no,no,no
+bao2026analogagent,AnalogAgent,C3,both,prompting; memory,no-consequential-action,no,simulation,multi-role,no,yes,,yes,yes,no,no
+baronio2026kevin,Kevin,C3,open-weights,prompting; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+bergman2025intent,IntentDrivenStorage,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+bhatia2024verified,LLMLift,C4,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+bimo2026contract,CAIF,C1,open-weights,prompting,machine,no,simulation,multi-role,yes,no,yes,yes,no,no,no
+brodimas2025intent,AgenticIBNOrchestration,C6,both,prompting; rag; memory; sft,machine,yes,benchmark-or-testbed,multi-role,no,yes,no,yes,no,yes,no
+chakraborty2024automation,NetworkConfigGen,C1,both,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,no,no,no,no,yes
+chang2023chipgpt,ChipGPT,C3,proprietary-api,prompting; icl,no-consequential-action,yes,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+chang2025drc,DRCCoder,C3,both,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,yes,no,no,no
+chang2026causaldx,CausalDX,C5,proprietary-api,prompting; icl; memory,human,yes,human-reviewed-external-use,multi-role,no,no,yes,yes,yes,yes,no
+chao2026think,VeriBToT,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,yes,no,no
+chatterjee2026phaedrus,Phaedrus,C1,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+chatzistefanidis2026agoran,Agoran,C6,both,prompting; rag; sft; distillation,machine,no,benchmark-or-testbed,multi-role,yes,yes,yes,yes,no,no,yes
+chen2024artisan,Artisan,C3,both,prompting; icl; sft; other,no-consequential-action,no,simulation,multi-role,no,no,,yes,no,no,no
+chen2024automatic,RCACopilot,C5,proprietary-api,prompting; icl; rag,human,yes,component-deployed,single-role,no,yes,yes,yes,no,no,no
+chen2024autoos,AutoOS,C3,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+chen2025andromeda,Andromeda,C5,both,prompting; rag,no-consequential-action,not_reported,benchmark-or-testbed,single-role,no,yes,no,yes,no,yes,no
+chen2025stratus,STRATUS,C6,both,prompting,machine,no,benchmark-or-testbed,multi-role,no,yes,yes,yes,no,yes,no
+chen2026chipseek,ChipSeek,C3,open-weights,sft; rl; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+chen2026dbagent,DBAgent,C5,open-weights,rag; sft; rl,human,yes,component-deployed,single-role,no,no,no,yes,no,no,no
+chen2026llm4jmh,LLM4JMH,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+cui2024origen,OriGen,C4,both,sft; distillation,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+cui2025decos,DeCOS,C2,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+cummins2023compileroptimization,CompilerOptLLM,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+cummins2025llm,LLMCompiler,C3,open-weights,sft; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+dang2025miggpt,MigGPT,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+dao2026autonomous,LLMRoutingAlgorithmSynthesis,C3,proprietary-api,prompting,no-consequential-action,no,simulation,single-role,no,no,,no,no,no,no
+decarvalho2026integrating,LLMCS,C4,both,prompting; memory,no-consequential-action,no,simulation,single-role,no,yes,,yes,yes,yes,no
+ding2026prompts,PROMPTS,C3,not_reported,prompting; rag,human,no,production-traces,multi-role,no,no,,yes,no,no,no
+domanski2025aided,SDCWorkload,C3,proprietary-api,prompting; icl; rl; other,no-consequential-action,no,simulation,single-role,no,no,,yes,no,no,no
+dong2025qimeng,QiMengXpiler,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+dong2025stark,STARK,C3,proprietary-api,prompting; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+dong2026flowfixer,FlowFixerEDA,C4,both,prompting; rag,machine,no,sandbox,single-role,no,yes,,yes,yes,no,no
+dong2026qimeng,QiMengTensify,C2,both,prompting; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+du2026chip,CHIP-MAP,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,no,no
+egersdoerfer2025stellar,STELLAR,C3,both,prompting; rag; memory,machine,no,benchmark-or-testbed,multi-role,no,yes,,yes,yes,no,no
+elhelwani2026aided,CLSTRiscV,C3,proprietary-api,prompting,no-consequential-action,no,artifact-deployed,single-role,no,no,,yes,no,no,no
+elkael2026allstar,ALLSTaR,C4,proprietary-api,prompting; icl,machine,yes,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+fan2024latuner,LATuner,C2,proprietary-api,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,no,,yes,yes,no,no
+fang2026veriopt,LLMVeriOpt,C4,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+fathollahzadeh2026resequel,ReSequel,C3,both,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,yes,no,no,yes,no,no
+feng2026powerlens,PowerLens,C6,proprietary-api,prompting; memory,machine,no,benchmark-or-testbed,multi-role,yes,yes,yes,yes,yes,yes,no
+firouzi2024aid,LLM-AID,C3,both,prompting; icl; rag,machine,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+firouzi2025prompt,PromptFabFlex,C3,both,prompting; rag; other,no-consequential-action,no,simulation,multi-role,yes,yes,,no,no,no,no
+firouzi2026agentic,AgenticTestGen,C3,proprietary-api,prompting; icl; rl; other,no-consequential-action,no,simulation,single-role,no,no,,yes,no,no,no
+fu2023gpt4aigchip,GPT4AIGChip,C3,proprietary-api,prompting; icl; rag,no-consequential-action,yes,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+fu2025building,FADRReasoningRTL,C3,open-weights,sft; rl; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+fu2025powered,OncallX,C5,proprietary-api,prompting; rag,human,yes,component-deployed,multi-role,no,no,yes,yes,yes,no,no
+fu2026chatsva,ChatSVA,C3,both,prompting; rag; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+fu2026mappingevolve,MappingEvolve,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,yes,yes,yes,no
+fukuda2025small,SLMAgentICTOps,C6,open-weights,icl; rag,machine,no,sandbox,single-role,no,yes,no,no,no,no,no
+giannakouris2025lambda,LambdaTune,C3,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+goel2024x,XLifecycleLearning,C5,proprietary-api,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,no,no,no,no,no
+gong2025tuning,MPCO,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+gong2026small,ReGraphT,C3,open-weights,prompting; icl; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,yes
+gu2026agentic,RRAGLSMC,C1,open-weights,prompting; rag; memory,machine,no,simulation,single-role,no,no,no,yes,no,no,no
+guo2025intent,IAN,C1,both,prompting; rag; sft,machine,no,simulation,single-role,no,no,no,no,no,no,no
+guo2026driven,RASSEvo,C3,both,prompting,machine,no,simulation,single-role,no,yes,no,yes,yes,no,no
+guo2026generation,Artanis,C3,open-weights,sft; rl,machine,no,component-deployed,single-role,no,no,yes,yes,no,no,yes
+guo2026guided,FLARE,C1,open-weights,prompting; rag; memory,machine,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+habib2025based,IntentNetOpt,C1,open-weights,prompting; icl,machine,no,simulation,single-role,no,no,no,no,no,no,no
+habib2026harnessing,IntentRANHDTGA,C1,open-weights,rag; sft,machine,no,simulation,single-role,no,no,no,yes,no,no,no
+han2025network,NetworkCoPilot,C3,open-weights,sft; other,machine,no,simulation,single-role,no,no,no,no,no,no,yes
+han2026multi,JNSRA,C6,open-weights,sft; rl; preference; distillation,machine,no,simulation,multi-role,no,no,no,no,no,no,no
+han2026mvgpt,MVGPT,C2,open-weights,rag; sft,machine,no,production-traces,single-role,no,no,yes,yes,no,no,yes
+han2026offloading,WRDPO_IntentOffloading,C6,open-weights,sft; preference,machine,no,simulation,replicated-role,no,no,no,no,no,no,no
+hari2026improving,GPUKernelSoL,C3,proprietary-api,prompting; icl; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,yes,yes,no
+he2024chateda,ChatEDA,C6,open-weights,prompting; sft; distillation,machine,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+he2026hcao,HCAO,C1,open-weights,prompting,machine,no,simulation,single-role,no,no,no,no,no,no,no
+ho2024standard,StandardCellLayoutLLM,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+ho2025marco,Marco,C3,proprietary-api,prompting; rag; memory,no-consequential-action,not_reported,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+ho2025verilogcoder,VerilogCoder,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,yes,no,no
+hong2025autocomp,Autocomp,C3,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+hossain2025netintent,NetIntent,C6,open-weights,prompting; icl,machine,no,benchmark-or-testbed,multi-role,no,yes,yes,yes,no,no,no
+hu2025uvllm,UVLLM,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,yes,no,no,no
+huang2025e2etune,E2ETune,C3,both,sft,machine,no,production-traces,single-role,no,yes,,no,no,yes,yes
+huang2026optimizing,AINativeRecoveryLLM,C6,open-weights,sft; preference,machine,not_reported,benchmark-or-testbed,single-role,no,no,no,yes,no,no,no
+huang2026qimeng,QiMengCRUX,C3,open-weights,sft; rl; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+huang2026reliable,MultiAgentIncidentDiagnosis,C5,both,prompting; memory,human,yes,component-deployed,multi-role,no,yes,yes,yes,yes,no,no
+jia2025crucible,Crucible,C3,proprietary-api,prompting; memory,no-consequential-action,no,artifact-deployed,single-role,no,yes,,no,no,no,no
+jiang2025logpilot,LogPilot,C5,proprietary-api,prompting; rag,human,yes,component-deployed,multi-role,no,no,yes,yes,no,yes,no
+jiang2026retrieval,RAGAutoScaling_RAM,C6,open-weights,rag; sft,machine,no,benchmark-or-testbed,single-role,no,no,yes,yes,no,no,no
+jiao2026diffbench,DiffBenchDiffAgent,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+jin2025verilocc,VeriLocc,C4,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+kaplan2026paracodex,ParaCodex,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,yes,no,no
+khaldi2026agentic,AgenticDTNFramework,C6,proprietary-api,prompting; memory,machine,no,benchmark-or-testbed,multi-role,no,yes,yes,yes,no,no,no
+kikuta2025powered,ChaosEater,C6,proprietary-api,prompting; memory,machine,no,benchmark-or-testbed,multi-role,no,no,,yes,no,yes,no
+kochar2025ledro,LEDRO,C2,both,prompting; icl,no-consequential-action,no,simulation,single-role,no,yes,,yes,no,no,no
+kwon2026cov,CoV,C4,open-weights,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+lai2025analogcoder,AnalogCoder,C4,both,prompting; icl; memory; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,yes,no,no
+lao2024gptuner,GPTuner,C2,proprietary-api,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,yes,,no,yes,yes,yes
+lee2025convergence,LLMOConvergence,C3,both,prompting; icl,no-consequential-action,no,simulation,replicated-role,no,yes,,no,yes,no,no
+lee2025knowledge,MultiLLMKnowledgeFreeOpt,C3,proprietary-api,prompting; icl,machine,no,simulation,replicated-role,no,no,no,no,no,no,no
+lee2026empowered,LLMWirelessPowerAlloc,C6,open-weights,icl,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+lei2026a2hcoder,A2HCoder,C3,proprietary-api,prompting; icl; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+li2024llmr2,LLMR2,C3,proprietary-api,prompting; icl; rag,machine,no,benchmark-or-testbed,single-role,no,no,yes,yes,no,no,no
+li2025agenttune,AgentTune,C3,proprietary-api,prompting; memory,machine,no,production-traces,multi-role,no,yes,,yes,yes,yes,no
+li2025agon,AGON,C3,both,prompting; icl,no-consequential-action,yes,simulation,single-role,no,no,,no,no,no,no
+li2025lemoe,LEMOE,C2,proprietary-api,prompting; icl,no-consequential-action,no,simulation,single-role,no,yes,,yes,no,no,no
+li2025sraf,LLMSRAF,C3,open-weights,sft; rl,no-consequential-action,no,simulation,single-role,no,no,,yes,no,no,no
+li2026configtransle,ConfigTransLE,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,yes,yes,no
+li2026cudal1,CUDAL1,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+li2026empowering,IBNLoRACurriculum,C3,open-weights,sft; other,machine,not_reported,benchmark-or-testbed,single-role,no,no,yes,yes,no,yes,yes
+li2026specification,Syntropy,C4,open-weights,prompting; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,yes,no,yes
+lian2025intelligent,LLMBAIMCTS,C2,proprietary-api,prompting; icl,machine,no,simulation,single-role,no,yes,,no,no,no,no
+liao2025kernelevolve,KernelEvolve,C3,both,prompting; rag; memory,no-consequential-action,not_reported,artifact-deployed,multi-role,no,no,,yes,no,no,no
+liargkovas2025expert,ExpertInResidence,C6,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,yes,yes,no
+liargkovas2026tuxbot,TuxBot,C6,proprietary-api,prompting; rag; memory,machine,no,benchmark-or-testbed,multi-role,no,yes,yes,yes,no,yes,no
+lin2025r1,OSR1_TuneAgent,C3,open-weights,rag; rl,machine,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+lin2025storagextuner,StorageXTuner,C3,proprietary-api,prompting; icl; rag; memory,no-consequential-action,no,sandbox,multi-role,no,yes,,no,yes,no,no
+lin2026actionnex,ActionNex,C5,proprietary-api,prompting; rag; memory,human,no,human-reviewed-external-use,single-role,no,no,no,no,no,no,no
+lin2026deepconfig,DeepConfig,C4,both,prompting; rag,no-consequential-action,yes,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+lin2026eco,ECO,C3,proprietary-api,prompting; icl; rag; sft,machine,yes,artifact-deployed,single-role,no,no,,no,no,no,no
+liu2025craftrtl,CraftRTL,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+liu2025sefrqo,SEFRQO,C3,both,rag; memory; sft; rl,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,no,no,no
+liu2026dr,DrKernel,C3,open-weights,sft; rl; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+liu2026eesizer,EEsizer,C3,proprietary-api,prompting,no-consequential-action,no,simulation,single-role,no,yes,,yes,no,no,no
+liu2026example,fastCEGS,C4,both,prompting; icl; rag,no-consequential-action,no,simulation,single-role,no,no,,yes,yes,no,no
+liu2026genrewrite,GenRewrite,C3,proprietary-api,prompting; rag; memory,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,yes,no
+liu2026lameta,LAMeTA,C1,both,icl; memory; preference; distillation,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+liu2026llmcardest,Liu et al.,C1,both,sft,machine,no,benchmark-or-testbed,single-role,no,yes,no,yes,no,yes,yes
+liu2026no,LLMSbt,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+liu2026sharpen,SysSpec,C3,both,prompting,machine,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,no,no
+long2026unleashed,APG_RFC2Code,C4,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,yes,no,no,no
+luo2026emerging,IoTGen,C3,both,prompting; rag; sft; distillation,human,yes,artifact-deployed,single-role,no,no,,yes,yes,yes,no
+luo2026location,LLMINA,C3,both,prompting,no-consequential-action,no,simulation,single-role,no,yes,,yes,yes,yes,no
+luo2026opsagent,OpsAgent,C5,open-weights,prompting; icl; rag; memory; rl,human,yes,component-deployed,multi-role,yes,yes,yes,yes,no,no,no
+lyu2026localv,QiMeng-ChipV-RTL,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,yes,no,no
+ma2024verilogreader,VerilogReader,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+ma2026autorf,AutoRF,C3,both,prompting; rag; memory; sft,human,no,artifact-deployed,multi-role,yes,no,,yes,no,yes,no
+ma2026cubridge,CuBridge,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+ma2026lejot,LeJOTAutoML,C1,open-weights,prompting; rag,machine,not_reported,production-traces,multi-role,no,no,,yes,no,no,no
+ma2026topollm,TopoLLM,C2,open-weights,sft,no-consequential-action,no,simulation,single-role,no,no,yes,yes,no,no,no
+mahmud2025autoparllm,AutoParLLM,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+mai2026ave,Ave,C3,both,prompting; icl; rag; other,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,yes,yes,no
+mao2026agentic,StepFly,C5,proprietary-api,prompting; icl; memory,human,yes,human-reviewed-external-use,replicated-role,no,yes,no,yes,yes,no,no
+mhapsekar2026cachemind,CacheMind,C5,proprietary-api,prompting; icl; rag; memory; sft,human,no,simulation,multi-role,no,yes,no,no,no,no,no
+miao2026ic3,IC3Evolve,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+mikek2026agentic,AgenticCodeOpt,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+min2025improving,VeriLogosRLTF,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+moraru2026laafd,LAAFD,C3,proprietary-api,prompting,no-consequential-action,no,simulation,multi-role,yes,yes,,no,no,yes,no
+moreira2026agora,AGORA,C6,open-weights,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,yes,no,no
+narasayya2026leveraging,QOVerify,C4,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+nekrasov2025iactaxonomy,IaCKnowledgeInjection,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,yes,no,no
+niu2025rechisel,ReChisel,C3,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,no,no,no,no
+noh2025adaptive,LLMRAO,C3,proprietary-api,prompting; icl,no-consequential-action,no,simulation,single-role,no,no,no,no,no,no,no
+novikov2025alphaevolve,AlphaEvolve,C3,proprietary-api,prompting; icl,human,yes,artifact-deployed,replicated-role,no,yes,,no,no,no,yes
+ns2025ai,ADO-KT,C2,both,prompting; icl,no-consequential-action,no,simulation,single-role,no,yes,,no,no,no,no
+pan2026obelisk,OBELISK,C2,proprietary-api,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,no,,no,yes,yes,no
+pancompiler,CompilerR1,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+pasandi2025jarvis,JARVIS,C4,open-weights,prompting; rag; sft; other,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,no,no,no,yes
+pei2024betterv,BetterV,C3,open-weights,sft; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+peled2026lemma,LargeLemmaMiners,C4,proprietary-api,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,yes,no,no
+peng2026sysllmatic,SysLLMatic,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,yes,no
+peng2026verirepair,VeriRepair,C3,open-weights,icl; rag; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+perera2026llm4pqc,LLM4PQC,C3,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+provvedi2026intent,Intent-LLM,C6,proprietary-api,prompting; icl,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+qian2026kat,KAT,C5,open-weights,prompting; icl; rag; sft,human,yes,component-deployed,single-role,no,no,no,no,no,no,no
+qin2025multi,YieldAgent,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,no,no,no,no,no
+qin2027analogmaster,AnalogMaster,C2,both,prompting; icl,no-consequential-action,not_reported,simulation,multi-role,yes,yes,,no,no,no,no
+qiu2025correctbench,CorrectBench,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,yes,no,no
+rajabi2026stellar,STELLAR,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+ran2025kernelband,KernelBand,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,yes,no
+ren2025peace,PEACE,C3,open-weights,prompting; rag; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+ren2026networked,XiHe,C5,proprietary-api,prompting,human,yes,component-deployed,replicated-role,no,no,no,no,yes,yes,no
+roy2024exploring,RootCauseAgents,C5,proprietary-api,prompting; rag,human,yes,human-reviewed-external-use,multi-role,no,no,no,no,no,no,no
+sarda2024leveraging,MicroserviceAutoRemediation,C3,both,icl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,no,no,no,no,no
+sarkar2026rudder,Rudder,C6,open-weights,prompting; memory,machine,no,benchmark-or-testbed,replicated-role,no,yes,no,yes,no,no,no
+shao2025intellitopo,IntelliTopo,C3,open-weights,prompting; icl; rag,machine,not_reported,component-deployed,single-role,no,yes,,yes,no,no,no
+shen2026atelier,Atelier,C3,proprietary-api,prompting; rag,no-consequential-action,no,simulation,multi-role,no,no,,yes,no,no,no
+shi2025flowxpert,FlowXpert,C5,open-weights,rag; rl; preference,human,yes,component-deployed,multi-role,yes,yes,yes,yes,no,no,yes
+shi2026earl,EARL,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+shypula2024learning,PIE,C3,both,prompting; icl; rag; sft; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+sliwko2026cluster,SemanticSoftAffinity,C1,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,no,no,no
+somayaji2026uso,LLMUSO,C2,proprietary-api,prompting; icl; memory,no-consequential-action,no,simulation,multi-role,yes,no,,no,no,no,no
+song2026topcell,TOPCELL,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,yes
+sun2025rabbit,Rabbit,C2,both,prompting; icl; rag,machine,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,yes,no
+sun2025rbot,RBot,C3,both,prompting; rag,machine,no,production-traces,single-role,no,yes,yes,yes,no,no,no
+sun2026empowered,DualExpertLLMWirelessRA,C6,open-weights,sft; rl; preference; distillation,machine,no,simulation,single-role,no,no,no,no,no,no,no
+tan2025cotia,COTIA,C3,proprietary-api,prompting; memory,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+tan2025llmqo,LLMQO,C3,open-weights,icl; sft; preference,machine,no,benchmark-or-testbed,single-role,no,yes,no,yes,no,no,no
+tan2026safegen,SafeGen,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,yes,no,no,no
+tandon2024reward,RewardCopilot,C2,not_reported,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+taneja2024llmvectorizer,LLMVectorizer,C4,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+tang2025mahl,MAHL,C3,both,prompting; rag; memory,no-consequential-action,no,simulation,multi-role,yes,yes,,no,no,no,no
+tang2026service,TSPDMASACLLMDistillSFC,C1,both,prompting; other,machine,no,simulation,single-role,no,no,,no,no,no,no
+tangreasoning,ReasoningCompiler,C2,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,yes,no
+tasnia2025veriopt,VeriOpt,C3,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+tenace2026design,Nexus,C3,proprietary-api,prompting; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+teng2025verirl,VeriRL,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,yes
+thakkar2024modern,LSMKVTuning,C3,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+thakur2024autochip,AutoChip,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,yes,no,no
+tian2026gala,GALA,C5,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,yes,yes,yes,yes,no
+tomasovic2026multi,CoEvoPromptCircuitApprox,C3,open-weights,prompting,no-consequential-action,no,simulation,multi-role,no,no,,yes,no,no,no
+trummer2022codexdb,CodexDB,C3,proprietary-api,prompting; icl,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,no,no,no
+tsai2024rtlfixer,RTLFixer,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+tschand2025swizzleperf,SwizzlePerf,C3,proprietary-api,prompting; memory,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+ulislam2025eda,AIVRIL2,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,yes,no,no,no
+vijayaraghavan2024chain,ChainOfDescriptions,C3,open-weights,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+vijayaraghavan2025autocircuit,AutoCircuitRL,C3,open-weights,sft; rl,no-consequential-action,no,simulation,single-role,no,no,,no,no,no,no
+vijayaraghavan2026stepprm,StepPRM-RTL,C3,open-weights,rag; sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+wan2026chattest,ChatTest,C3,both,prompting; rag; memory; sft; distillation,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+wang2024chatcpu,ChatCPU,C3,both,sft,no-consequential-action,not_reported,artifact-deployed,multi-role,no,no,,no,no,no,no
+wang2024chatpattern,ChatPattern,C3,not_reported,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+wang2024provide,COMET,C1,proprietary-api,prompting,human,no,human-reviewed-external-use,single-role,no,yes,no,yes,no,no,no
+wang2024rcagent,RCAgent,C5,open-weights,prompting; rag,human,no,component-deployed,multi-role,no,no,no,yes,yes,no,no
+wang2025fixing,GraphGlue,C4,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,yes,no,no,no
+wang2025intent,Confucius,C4,both,prompting; icl; rag; memory,machine,yes,component-deployed,multi-role,yes,yes,no,no,no,no,no
+wang2025reductive,MERIC,C1,proprietary-api,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+wang2025symrtlo,SymRTLO,C4,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,yes,no,no
+wang2025towards,BiAn,C5,open-weights,prompting; memory; sft; distillation,human,yes,component-deployed,multi-role,no,yes,yes,yes,no,yes,no
+wang2026fm,FMAgenticSlicing,C1,both,prompting,machine,no,simulation,single-role,no,yes,yes,yes,no,no,no
+wang2026ge,GE-LLM,C6,open-weights,icl; other,machine,no,benchmark-or-testbed,single-role,no,yes,no,no,no,no,yes
+wang2026jumpdash,JumpDASH,C1,open-weights,prompting,machine,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,yes
+wang2026lamio,LAMIO6G,C2,open-weights,prompting; icl; rag; sft,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+wang2026llm4perf,LLM4Perf,C1,both,prompting,machine,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+wang2026powered,ConfGen,C4,open-weights,rag; sft,no-consequential-action,not_reported,benchmark-or-testbed,single-role,no,no,yes,yes,no,no,no
+wehrstein2026bespoke,BespokeOLAP,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,yes,yes,yes,no
+wei2025astra,Astra,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+wei2025improving,AgentSystemInterfaceMappers,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+wei2025improvingb,SuperCoder,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+wei2026toposizing,TopoSizing,C2,proprietary-api,prompting,no-consequential-action,no,simulation,multi-role,no,no,,yes,no,no,no
+wiedemann2026kernelfoundry,KernelFoundry,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,yes,no
+wu2024netllm,NetLLM,C6,open-weights,rl; other,machine,no,benchmark-or-testbed,single-role,no,yes,yes,yes,no,no,no
+wu2025divergent,EDAid,C3,open-weights,prompting; icl; rag; sft,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,no,no,no,no
+wu2026based,LLMICLDigitalTwinOffloading,C6,open-weights,icl; memory,machine,no,simulation,single-role,no,no,no,no,no,no,no
+wu2026channel,LLMGuidedBTSPChannelOrdering,C2,open-weights,prompting,no-consequential-action,no,simulation,single-role,no,no,,yes,no,no,no
+wu2026gls,GLS,C6,open-weights,rl,machine,no,simulation,single-role,no,no,yes,yes,no,no,yes
+wu2026learning,MiCo,C3,both,prompting,no-consequential-action,no,simulation,multi-role,no,yes,,no,no,yes,yes
+xiao2024based,LLMNeuromorphicProcVerif,C3,proprietary-api,prompting; icl,no-consequential-action,yes,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+xiao2026runbookfx,RunbookFX,C4,proprietary-api,prompting; rag,machine,yes,benchmark-or-testbed,single-role,no,no,no,yes,no,no,no
+xie2024cloudatlas,CloudAtlas,C1,proprietary-api,prompting,no-consequential-action,yes,simulation,replicated-role,no,no,,no,no,no,no
+xing2025astra,ASTRA,C2,proprietary-api,prompting; rag,no-consequential-action,no,simulation,multi-role,no,no,,no,no,no,no
+xiong2024hlspilot,HLSPilot,C3,proprietary-api,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+xiong2026estrtl,EstRTL,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,no,no,no,no
+xu2024meic,MEIC,C3,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,no,no
+xu2025hlstester,HLSTester,C4,proprietary-api,prompting; rag,no-consequential-action,no,simulation,single-role,no,no,,yes,no,no,no
+xu2025speculative,SpecDecodingVerilog,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+xu2026aida,AIDA,C5,both,prompting; rag; sft; rl,human,no,component-deployed,single-role,no,yes,yes,yes,yes,no,yes
+xu2026leveraging,LPO,C4,both,prompting,human,yes,human-reviewed-external-use,single-role,no,yes,,yes,no,yes,no
+xu2026llmflowgo,LLMFlowGO,C2,not_reported,prompting,machine,no,simulation,single-role,no,no,,no,no,no,no
+xu2026pf,PFLLM,C1,open-weights,sft,machine,no,simulation,single-role,no,no,,yes,no,no,no
+yan2025assertllm,AssertLLM,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+yan2025gensoc,GenSoC,C3,open-weights,prompting; rag; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+yan2025mctuner,MCTuner,C2,proprietary-api,prompting,machine,no,benchmark-or-testbed,multi-role,no,no,,yes,no,no,no
+yang2025haven,HaVen,C3,open-weights,prompting; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+yang2025knobtunex,KnobTuneX,C3,both,prompting; rag; memory,machine,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+yang2026cooperative,CoopLLMCache,C6,open-weights,sft; rl,machine,no,simulation,single-role,no,no,no,no,no,no,no
+yang2026multi,COMLLM,C6,open-weights,sft; rl,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+yang2026parevo,ParEVO,C3,both,prompting; icl; sft; preference,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+yao2024rtlrewriter,RTLRewriter,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+yao2025location,LiK,C5,open-weights,sft; preference; distillation; other,no-consequential-action,not_reported,benchmark-or-testbed,single-role,no,no,no,no,no,no,yes
+yao2026assertgpt,AssertGPT,C4,open-weights,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+yao2026evolution,LLMEvoPlacement,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
+yashchenko2026generation,SynthVerilogQLoRA,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+ye2025llm4netlist,LLM4Netlist,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,yes
+ye2026longrtl,LongRTL,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,yes,no,no,no
+ye2026uvmarvel,UVMarvel,C3,proprietary-api,prompting; icl,no-consequential-action,not_reported,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+yin2024ado,ADOLLM,C2,proprietary-api,prompting; icl,no-consequential-action,no,simulation,single-role,no,no,,no,no,no,no
+yu2024monitorassistant,MonitorAssistant,C5,proprietary-api,prompting; rag,human,yes,component-deployed,single-role,no,no,no,no,no,no,no
+yu2025enabling,AutonomicMicroserviceMgmt,C6,proprietary-api,prompting; memory,machine,no,benchmark-or-testbed,multi-role,no,no,no,yes,no,yes,no
+yu2025spec2rtl,Spec2RTLAgent,C3,proprietary-api,prompting,no-consequential-action,yes,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+yu2025triangle,Triangle,C5,not_reported,prompting; rag,human,not_reported,component-deployed,multi-role,yes,no,no,no,no,no,no
+yu2026autonomous,SelfEvolvedABC,C3,proprietary-api,prompting; memory,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,yes,yes,yes,no
+yu2026autosizer,AutoSizer,C2,proprietary-api,prompting,no-consequential-action,no,simulation,multi-role,no,no,,yes,no,no,no
+yu2026evolution,AliYANG,C4,both,prompting; icl,human,yes,artifact-deployed,single-role,no,yes,,yes,no,no,no
+yuan2025driven,LLMRewardEdgeOffloading,C3,both,prompting,no-consequential-action,no,simulation,single-role,no,yes,,yes,no,yes,no
+yuan2026lmte,LMTE,C3,open-weights,other,no-consequential-action,no,simulation,single-role,no,no,no,yes,no,no,no
+zaeed2026optimas,Optimas,C3,both,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,yes,yes,no
+zhang2025agentfm,AgentFM,C5,open-weights,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,no,no,no,no,no
+zhang2025aspen,ASPEN,C2,proprietary-api,prompting; icl,no-consequential-action,no,benchmark-or-testbed,multi-role,no,no,,no,no,no,no
+zhang2025gemmv,GEMMV,C3,open-weights,prompting; sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+zhang2025qimeng,QiMengSALV,C3,open-weights,sft; preference,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+zhang2025qimengb,QiMengTensorOp,C3,both,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+zhang2026ams,AMSIOAgent,C4,both,prompting; icl,human,yes,artifact-deployed,single-role,no,yes,,yes,yes,no,no
+zhang2026booster,Booster,C2,both,prompting; rag,machine,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+zhang2026bridging,SwiftTrans,C3,open-weights,icl; sft,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,yes,,yes,no,no,no
+zhang2026database,SysInsight,C3,proprietary-api,prompting; rag; memory,machine,no,benchmark-or-testbed,multi-role,no,yes,,yes,yes,yes,no
+zhang2026deployability,IaCGen_DPIaCEval,C3,both,prompting,machine,no,sandbox,single-role,no,yes,,no,no,yes,no
+zhang2026llm4cov,LLM4Cov,C3,open-weights,sft; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+zhang2026understanding,RTLErrorMitigation,C3,both,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+zhao2025hardware,PPARTL,C3,open-weights,preference,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+zhao2025mage,MAGE,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,multi-role,yes,no,,no,no,no,no
+zhao2026codev,CodeV,C3,open-weights,sft,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+zhao2026llmia,LLMIA,C3,both,icl; rag,machine,no,production-traces,single-role,no,yes,,yes,yes,yes,no
+zhao2026semopt,SemOpt,C3,both,prompting; rag,human,yes,human-reviewed-external-use,single-role,no,yes,,no,no,no,no
+zheng2025chatls,ChatLS,C3,proprietary-api,prompting; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+zhi2026looprag,LOOPRAG,C3,both,icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+zhou2025gaussmaster,GaussMaster,C5,proprietary-api,prompting; rag,human,not_reported,component-deployed,multi-role,yes,no,no,yes,no,no,no
+zhou2025generative,GAIaaSOffloadingICL,C6,both,icl; memory,machine,no,simulation,single-role,no,yes,no,no,no,no,no
+zhou2025insights,AssertSolver,C3,open-weights,sft; preference; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+zhou2025meshagent,MeshAgent,C4,both,prompting; rag,no-consequential-action,yes,human-reviewed-external-use,single-role,no,yes,yes,yes,no,yes,no
+zhou2025qimeng,QiMengGEMM,C3,both,prompting; icl; rag,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+zhou2025vtot,VToT,C3,proprietary-api,prompting,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,no,no,no,no
+zhou2026automating,DBCooker,C3,proprietary-api,prompting; rag; memory,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,no
+zhu2024task,LLMQTRAN,C1,open-weights,prompting,machine,no,simulation,single-role,no,no,,no,no,no,no
+zhu2025codev,CodeV-R1,C3,open-weights,sft; rl; distillation,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,no,no,no,yes
+zhu2025open3dflow,Open3DFlow,C3,both,sft; other,no-consequential-action,no,benchmark-or-testbed,single-role,no,yes,,yes,no,no,no
+zhu2026beyond,Nirvana,C3,proprietary-api,prompting,machine,no,benchmark-or-testbed,multi-role,yes,no,no,yes,no,no,no
+zhu2026gen,GENCSAF,C6,open-weights,prompting; rag; memory; other,machine,no,benchmark-or-testbed,multi-role,no,yes,yes,yes,no,no,no
+zhu2026qimeng,QiMengKernelMTMC,C3,both,prompting; icl; rl,no-consequential-action,no,benchmark-or-testbed,multi-role,no,yes,,no,no,no,no
+zou2026hls,HLSSeek,C3,open-weights,sft; rl,no-consequential-action,no,benchmark-or-testbed,single-role,no,no,,yes,no,no,no
